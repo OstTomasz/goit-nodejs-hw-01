@@ -7,7 +7,7 @@
   },
   "type": "module",
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/OstTomasz/goit-nodejs-hw-01.git"
   },
   "keywords": [],
@@ -17,5 +17,9 @@
     "url": "https://github.com/OstTomasz/goit-nodejs-hw-01/issues"
   },
   "homepage": "https://github.com/OstTomasz/goit-nodejs-hw-01#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^13.0.0"
+  }
 }
