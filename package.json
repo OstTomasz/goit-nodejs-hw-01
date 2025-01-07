@@ -2,24 +2,25 @@
   "name": "goit-nodejs-hw-01",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/OstTomasz/goit-nodejs-hw-01.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tomasz Ostaszewski",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OstTomasz/goit-nodejs-hw-01/issues"
   },
   "homepage": "https://github.com/OstTomasz/goit-nodejs-hw-01#readme",
-  "description": "",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "commander": "^13.0.0"
-  }
+  "description": ""
 }
