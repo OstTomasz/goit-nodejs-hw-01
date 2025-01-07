@@ -22,5 +22,9 @@
     "url": "https://github.com/OstTomasz/goit-nodejs-hw-01/issues"
   },
   "homepage": "https://github.com/OstTomasz/goit-nodejs-hw-01#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "yargs": "^17.7.2"
+  }
 }
